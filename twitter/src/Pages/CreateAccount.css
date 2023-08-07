@@ -1,0 +1,107 @@
+.createaccount-container {
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: max-content;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+}
+
+.createaccount-top {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.createaccount-top h4 {
+    margin-left: 20px;
+
+}
+
+.createaccount-container-h4 {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.fa-x {
+    margin-left: 20px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.createaccount-input {
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.createaccount-input input {
+    height: 50px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    border: 0.5px solid white;
+    padding: 10px;
+}
+.createaccount-input input:focus {
+    outline: none;
+    border : 2px solid #1B90DF;
+
+}
+.createaccount-input span{
+    color: red;
+    font-size: 15px;
+    margin-bottom: 20px;
+
+}
+.createaccount-input2{
+    margin-top: 20px;
+}
+.createaccount-dob {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.createaccount-dob-span1 {
+    color: gray;
+    font-size: 15px;
+}
+
+.createaccount-btn {
+    width: 400px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.createaccount-dob-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.createaccount-select {
+    font-size: 20px;
+    cursor: pointer;
+    height: 50px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    border: none;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.createaccount-button {
+    margin-top: 50px;
+
+}

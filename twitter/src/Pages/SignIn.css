@@ -1,0 +1,85 @@
+.signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:black;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-align: center;
+    margin-bottom: 30px;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%,-50%);
+   
+}
+
+.signin-top {
+    height: 40px;
+    width: 500px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 30px;
+
+}
+
+.signin-top img {
+    width: 30px;
+    margin-left: 200px;
+}
+.fa-solid{
+    cursor: pointer;
+}
+
+.signin-buttons h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.signin-buttons input {
+    height: 50px;
+    background-color: black;
+    color: white;
+    width: 300px;
+    border: none;
+    border: 0.5px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.signin-buttons input:focus {
+    outline: none;
+    border : 2px solid #1B90DF;
+}
+.signin-input{
+    display: flex;
+    flex-direction: column;
+}
+.signin-input span{
+    color: red;
+}
+
+
+.forgotpass-btn {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+
+}
+
+.signin-buttons-span2 {
+    color: #1B90DF;
+}
+
+.signin-buttons span {
+    margin-bottom: 40px;
+}
+.hidden{
+    display: none;
+}
+
+

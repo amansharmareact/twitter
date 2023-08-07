@@ -1,0 +1,25 @@
+.login-button{
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.fa-brands{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.bluebutton{
+    background-color:#1B90DF;
+    color: white;
+}
+.signin{
+    color: #1B90DF ;
+    background-color: black;
+    border: 1px solid white;
+}

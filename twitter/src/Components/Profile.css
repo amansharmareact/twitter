@@ -1,0 +1,44 @@
+.whotofollow-profiles img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.whotofollow-profiles{
+    display: flex;
+}
+.whotofollow-name h4{
+    font-size: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.whotofollow-username h5{
+    color: gray;
+    font-size: 15px;
+}
+.whotofollow-name img{
+    width: 15px;
+    margin-bottom: 8px;
+    border-radius: 50%;
+    height: 15px;
+}
+.whotofollow-name{
+    display: flex;
+    align-items: center;
+}
+.whotofollow-desc{
+    display: flex;
+    flex-direction: column;
+}
+.whotofollow-button{
+    width: 80px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}

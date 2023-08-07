@@ -1,0 +1,47 @@
+.top{
+    /* background-color: black; */
+     background-color: rgba(0, 0, 0, .9); 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 680px;
+    height: 140px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 20px;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+}
+.top-home h1{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.top-follow{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size:17px;
+    margin-bottom:10px ;
+}
+.top-you:hover{
+    margin-bottom:15px ;
+    border-bottom: 5px solid #1D9BF0;
+    
+    box-shadow: 0 2px 4px rgba(154, 42, 42, 0.2);
+}
+.top-you{
+    width: max-content;
+    margin-left: 120px;
+    transition: box-shadow 0.3s ease;
+}
+.top-following{
+    width: max-content;
+    margin-right:120px ;
+}
+.top-following:hover{
+    margin-bottom:15px ;
+    border-bottom: 5px solid #1D9BF0;
+}

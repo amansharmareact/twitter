@@ -1,0 +1,29 @@
+.get-verified-btn{
+    background-color: #1B90DF;
+    color: white;
+    width: 150px;
+    height: 34px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+.get-verified{
+    background-color: rgb(38, 36, 40);
+    width: 350px;
+    color: white;
+    border-radius: 10px;
+   padding: 10px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.get-verified h1{
+    font-size: 25px;
+    margin-bottom:20px ;
+}
+.get-verified h3{
+    font-size: 15px;
+    margin-bottom:20px ;
+}

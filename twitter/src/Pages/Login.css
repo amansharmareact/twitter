@@ -1,0 +1,102 @@
+.login-page {
+    display: flex;
+}
+
+.login-img img {
+    height: 120vh;
+    width: 650px;
+    object-fit: cover;
+
+}
+
+.login-info {
+    background-color: black;
+    width: 650px;
+    color: white;
+
+
+}
+
+.login-info h1 {
+    height: 50px;
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50x;
+    margin-right: 20px;
+}
+
+.login-info h3 {
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-left: 50px;
+
+}
+
+.login-buttons {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.login-info img {
+    width: 70px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.login-button{
+    margin-bottom: 10px;
+   
+}
+.line-with-or {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .line {
+    flex: 1;
+    height: 0.2px;
+    background-color: white;
+  }
+  
+  .or {
+    margin: 0 10px;
+    color: white;
+    font-weight: bold;
+  }
+  .login-buttons-span{
+   width: 250px;
+   font-size:11px ;
+   align-items: center;
+  }
+  .login-buttons-span span{
+   color:  #1B90DF;
+   padding: 3px;
+  }
+  .login-button{
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+  .sign-in h3{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 10px;
+  
+  }
+  .sign-in{
+    margin-left: 50px;
+  }
+  

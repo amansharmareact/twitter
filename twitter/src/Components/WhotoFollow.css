@@ -1,0 +1,21 @@
+.whotofollow h1{
+    font-size: 20px;
+    font-weight:600 ;
+    margin-bottom: 15px;
+}
+.whotofollow{
+    background-color: rgb(38, 36, 40);
+    width: 350px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 15px;
+    top: 0;
+   
+}
+.whotofollow-profile{
+    margin-top: 100px;
+    
+}
